@@ -1,0 +1,89 @@
+          body {
+                font-family: "Sorts Mill Goudy", serif;
+                max-width: 45rem;
+                margin: 0 auto;
+                padding: 0 .5rem;
+            }
+            #about p{
+                text-align: justify;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: normal;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 2.4em;
+            }
+            h2 {
+                text-align: center;
+            }
+            h3 {
+                font-size:  1.8em;
+            }
+            h4 {
+                font-size: 1.2em;
+            }
+            h5 {
+                font-size: 1em;
+            }
+            li {
+                list-style-type: none;
+            }
+            ul.bullet > li {
+                list-style-type: disc;
+            }
+            .date {
+                font-style: italic;
+            }
+            #resume p {
+                margin-top: 0;
+            }
+            h3, h4, h5 {
+                margin: .5em 0 0 0;
+            }
+            header {
+                border-bottom: 1px solid black;
+            }
+            .header {
+                margin: .5em 0 0 0;
+                text-align: center;
+                font-style: italic;
+            }
+            .head {
+                margin: .5em 0 0 0;
+                text-align: center;
+                font-size: 2.5em;
+            }
+            .hresume {
+                font-size: 1.2em;
+            }
+            .hnav {
+                font-size: 1.2em;
+            }
+           
+            .hnav ol {
+                display: flex;
+                justify-content: center;
+            }
+
+            .hnav li {
+                list-style-type: none;
+                margin: 0 1.5rem;
+                display: inline-block;
+                text-align: center;
+                
+            }
+@media print {
+    .hnav {
+        display: none;
+    }
+    .print-hide {
+        display: none;
+    }
+}
+@media screen {
+    .screen-hide {
+        display: none;
+    }
+}

@@ -6,56 +6,21 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
-        <style>
-            body {
-                font-family: "Sorts Mill Goudy", serif;
-                max-width: 45rem;
-                margin: 0 auto;
-                padding: 0 .5rem;
-            }
-            #about p{
-                text-align: justify;
-            }
-            h1, h2, h3, h4, h5, h6 {
-                font-weight: normal;
-            }
-
-            h1{
-                text-align: center;
-                font-size: 2.4em;
-            }
-            h2 {
-                text-align: center;
-            }
-            h3 {
-                font-size:  1.8em;
-            }
-            h4 {
-                font-size: 1.2em;
-            }
-            h5 {
-                font-size: 1em;
-            }
-            li {
-                list-style-type: none;
-            }
-            ul.bullet > li {
-                list-style-type: disc;
-            }
-            .date {
-                font-style: italic;
-            }
-            #resume p {
-                margin-top: 0;
-            }
-            h3, h4, h5 {
-                margin: .5em 0 0 0;
-            }
-
-        </style>
+        <link rel="stylesheet" href="main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
+        <header>
+            <p class="head">Benjamin Torcellini</p>
+            <p class="header">Organist, Violinist, Vocalist</p>
+            <nav class="hnav">
+                <ol>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/resume/">Resume</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                </ol>
+            </nav>
+        </header>
         <h1 class="title">Welcome to Benjamin Torcellini's Website</h1>
           <section id="about">
             <h2>About</h2>
@@ -65,138 +30,11 @@
             <p>
                 Currently, he is taking lessons with Dr. Trisha Snyder of the Storrs Congregational Church, with whom he has studied since 2022. He is first bass on the Anglican Singers out of New London, CT, and studies violin with Martha Herle at the Community Music School. In his spare time, he studies theology and hymnology, thinks about organs, and, if that doesn’t fill everything, might do some rebuilding of melodeons. He is also a member of the American Guild of Organists and likes to pet cats.
             </p>
-        </section>
-        <section id="resume">
-            <h2>Resume</h2>
-            <p></p>
-            <section>
-                <h3>Experience</h3>
+            <h3 class="hresume">You might also find my resume intresting.</h3>
+            <nav class="headnav">
                 <ul>
-                    <li> 
-                    <h4> Junior Intern at Old Sturbridge Village</h4>
-                        <p class="date">2022-Present</p>
-                        <ul class="bullet">
-                            <li>Music performance</li>
-                            <li>Historical interpretation</li>
-                            <li>Tin plate crafting</li>
-                            <li>Blacksmithing</li>
-                            <li>Farming.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Farm Hand at Eastford Farm</h4>
-                        <p class="date">2014-Present</p>
-                        <ul class="bullet">
-                            <li>Construction of outbuildings</li>
-                            <li>Gardening</li>
-                            <li>House renovation</li>
-                            <li>Caring for assorted livestock and poultry</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Handler for Duck Day</h4>
-                        <p class="date">2015-Present</p>
-                        <ul class="bullet">
-                            <li>Public speaking and handling of the press</li>
-                            <li>Leading the event in person 2022-present</li>
-                            <li>Received citations from the Connecticut General Assembly. </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Organist at Eastford Baptist Church</h4>
-                        <p class="date">2022-2025</p>
-                        <ul class="bullet">
-                            <li>Leading hymns as well as prelude, postludes, offertories, and communion.</li>
-                        </ul>
-                    </li>
+                    <li><a href="resume/index.html">Resume</a></li>
                 </ul>
-            </section>
-            <section>
-                <h3>Projects</h3>
-                <ul>
-                    <li>
-                        <h4>Ca. 1847 Jones and Berditt rocking melodeon rebuild </h4> 
-                        <p class="date">2025</p>
-                        <ul class="bullet">
-                            <li>Complete rebuild of the bellows</li>
-                            <li>Cleaning of the ivory keys and silver nameplate</li>
-                            <li>Re-edging of the frame of the bellows</li>
-                            <li>Repair of the veneer</li>
-                        </ul>
-                    </li>
-                </ul> 
-            </section>
-            <section>
-                <h3>General Education</h3>
-                <ul>
-                    <li>
-                        <h4>Eastford Farm Home Academy</h4>
-                        <p class="date">High School: Junior</p>
-                    </li>
-                </ul>
-                <h3>Music Education</h3>
-                <ul>
-                    <li>
-                        <h4>Community Music School</h4>
-                        <ul>
-                            <li>
-                                <h5>Violin with Martha Herrley</h5>
-                                <p class="date">August 2017-Present</p>                         
-                            </li>
-                            <li>
-                                <h5>Flute with Helene Rosenblatt</h5>
-                                <p class="date">March 2019-June 2020</p>
-                            </li>
-                            <li>
-                                <h5>Piano with Audrey Estelle</h5>
-                                <p class="date">September 2020- December 2023</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Organ with Dr. Trisha Snyder</h4>
-                        <p class="date">July 2022-Preset</p>
-                    </li>
-                    <li>
-                        <h4>Piano with Ruth Doughty</h4>
-                        <p class="date">2016-December 2020</p>
-                    </li>
-                    <li>
-                        <h4>Piano with Matt Bennet</h4>
-                        <p class="date">January 2020- August 2020</p>
-                    </li>
-                    <li>
-                        <h4>Organ Camps</h4>
-                        <ul>
-                            <li>
-                                <h5>UNCSA Pipe Organ Intensive</h5>
-                                <p class="date">July 14-19, 2024</p>
-                                <ul>
-                                    <li>Organ Lessons with Dreama Lovitt</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h5>Baylor Summer Organ Camp</h5>
-                                <p class="date">June 22-27, 2025</p>
-                                <ul>
-                                    <li>Organ Lessons with Dr. Jens Korndörfer, Eugene Lavery</li>
-                                </ul>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Choral Experience</h4>
-                        <ul>
-                            <li>
-                                <h5>Anglican Singers</h5>
-                                <p class="date">September 2025- Present</p>
-
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
         </section>
     </body>
 </html>

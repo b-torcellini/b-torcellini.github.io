@@ -15,6 +15,9 @@ img {
         width: calc(100% - 4rem);
     }
 }
+a {
+    color: black
+}
           body {
                 font-family: "Sorts Mill Goudy", serif;
                 max-width: 45rem;
@@ -99,10 +102,6 @@ img {
             }
 
 
-            .hbnav li a:hover, .hnav li a:hover {
-                text-decoration: underline;
-            }
-
 .hnav a {
     color: black;
     text-decoration: none;
@@ -113,13 +112,13 @@ img {
     font-size: 1.2em;
     text-align: center;
 }
-.hbnav {
+#about .hbnav {
     text-align: center;
     font-size: 1.1em;
 }
 .hbnav a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -141,6 +140,9 @@ img {
     font-size: .95em;
 }
 
+.pcontact {
+    font-size: 1.1em
+}
 
 
 

@@ -162,3 +162,106 @@ a {
     margin-top: .5rem;
 
 }
+
+
+
+
+
+
+
+
+
+
+p {
+    text-align: justify;
+}
+.pheader {
+    max-width: 44rem;
+    width: 100rem;
+    height: auto;
+    align-content: center;
+    margin-left: -3rem;
+    margin-right: -3rem;
+}
+.caption {
+    font-size: .9em;
+    font-style: italic;
+    text-align: center;
+}
+.students {
+    max-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.chatgpt {
+    max-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.fpewresarch {
+    float: left;
+    width: 25%;
+    margin: 0 2rem 2rem 0;
+}
+
+
+
+
+
+
+.verse-hover {
+    position: relative;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    z-index: 10;
+    font-size: 14px;
+    color:black;
+}
+
+.verse-hover:hover .popup {
+    display: block;
+}
+.title {
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+.htitle {
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.ad {
+    margin-left: 4rem;
+}
+.citedh {
+    font-size: 1.5em;
+    margin-top: 10rem;
+}
+.cited h3 {
+    font-size: 1em;
+}
+.cited a {
+    list-style-position: inside;
+}
+.cited li {
+    margin-bottom: 1.5rem;
+    padding-left: 0;
+    text-indent: -4rem;
+    margin-left: 1.5rem;
+}

@@ -86,6 +86,7 @@ a {
             .hnav ol {
                 display: flex;
                 justify-content: center;
+                padding-left: 0;
             }
 
             .hnav li {
@@ -163,4 +164,27 @@ a {
 
 }
 
+
+
+
+
+
+.Repertoire h1 {
+    font-size: 2em;
+}
+.Repertoire p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0;
+}
+.Repertoire h2 {
+    font-size: 1.3em;
+    margin-top: .5rem;
+}
+.Repertoire ol {
+    padding: 0;
+}
+.list {
+    margin-bottom: .9rem;
+}
 

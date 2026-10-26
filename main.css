@@ -199,3 +199,15 @@ a {
     margin-bottom: .9rem;
 }
 
+.title {
+    font-size: 2em;
+}
+#resume h2 {
+    font-size: 1.75em;
+}
+#resume h3 {
+    font-size: 1.5em;
+}
+.hcamp {
+    text-align: center;
+}
